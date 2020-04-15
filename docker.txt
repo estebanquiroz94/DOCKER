@@ -1,0 +1,9 @@
+Visualizar contenedores    -> docker ps
+Visualizar imagenes        -> docker images
+Crear imagen 			   -> docker build -t juan/web-exercise
+Iniciar contenedor         -> docker run --name container_name -d -p 8181:80 juan/web-exercise
+Ingresar a repo imagen	   -> docker exec -ti web-exercise bash
+Bajar un Contenedor        -> docker rm -f d3f0213569af
+Iniciar contenedor VOLUMEN -> docker run --name web-exercise -d -p 8181:80 -v D:\EXITO\DockerExercise\www:/usr/local/apache2/htdocs/ juan/web-exercise
+Acceder repositorio        -> docker exec -ti web-exercise bash / batch
+Guardar archivo            -> echo "Esto se va desaparecer si elimino el contenedor" > pruebaContenedor.html

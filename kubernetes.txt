@@ -1,0 +1,6 @@
+Crear imagen      -> docker build -t juan/app-hello .
+Ejecutar .yaml    -> kubectl apply -f deployment.yaml 
+Ver Kubernetes    -> kubectl get deployments
+Ver servicios     -> kubectl get services
+Ver pods	   	  -> kubectl get pods
+Eliminar Kub/Serv -> kubectl delete -f deployment.yaml
